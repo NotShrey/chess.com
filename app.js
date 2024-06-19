@@ -38,7 +38,13 @@ io.on("connection", (uniquesocket) => {
 
             const result = chess.move(move);
             if (result) {
-                io.emit("move", { move: result, board: chess.board() });
+                currentPlayer = chess.turn()
+                io.emit("move", move);
+                io.emit("boardState",chess.fen())
+            }
+            else{
+                console.log("Invalid move");
+                uniquesocket.emit("invalidMove", move)
             }
         } catch (err) {
             console.error(err);
