@@ -18,13 +18,3 @@ This project is a web-based chess platform built using JavaScript, Node.js, Expr
 - **Express:** Web framework for Node.js to build the backend API.
 - **Socket.IO:** Real-time bidirectional event-based communication.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/NotShrey/chess.com-clone.git
-2. Navigate to the project directory:
- ```bash
-cd chess-com-clone
