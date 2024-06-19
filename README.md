@@ -1,6 +1,6 @@
 # Chess.com Clone
 
-Welcome to the Chess.com Clone repository! This project is a web-based chess platform built using JavaScript, Node.js, Express, and Socket.IO. The goal of this project is to replicate the core functionalities of Chess.com, allowing users to play chess games in real-time with others.
+This project is a web-based chess platform built using JavaScript, Node.js, Express, and Socket.IO. The goal of this project is to replicate the core functionalities of Chess.com, allowing users to play chess games in real-time with others.
 
 ## Features
 
